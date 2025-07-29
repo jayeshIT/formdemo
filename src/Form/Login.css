@@ -1,0 +1,84 @@
+.login-form-container {
+    max-width: 340px;
+    margin: 40px auto;
+    padding: 28px 30px 20px 30px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form-container h2 {
+    margin-bottom: 18px;
+    color: #333;
+}
+
+.login-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login-form-container label {
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.login-form-container input[type="email"],
+.login-form-container input[type="password"] {
+    padding: 8px 10px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-bottom: 6px;
+    transition: border-color 0.2s;
+}
+
+.login-form-container input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.login-form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+.login-form-actions button {
+    flex: 1;
+    padding: 9px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    background: #007bff;
+    color: #fff;
+    transition: background 0.2s;
+}
+
+.login-form-actions .signup-btn {
+    background: #28a745;
+}
+
+.login-form-actions button:hover {
+    opacity: 0.9;
+}
+
+.forgot-password {
+    text-align: right;
+    margin-top: 8px;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.97rem;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
