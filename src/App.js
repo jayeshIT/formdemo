@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import { Form } from './Form/Form';
-import { LoginForm } from './Form/Login';
+import { Home } from './Form/Home';
+import { ThemeProvider } from './Form/DarkLight';
+import { use } from "react"
 function App() {
+  
   return (
-    <div className="App">
-      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-        <Form></Form>
-        <LoginForm></LoginForm>
-      </div>
-    </div>
+    <>
+      <ThemeProvider>
+          <Home></Home>
+      </ThemeProvider>
+    
+    </>
   );
 }
 
